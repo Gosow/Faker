@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faker</title>
+
+</head>
+<body>
+<div style = "text-align: center">
+    <h1>
+        Is it fake?
+    </h1>
+    <h3>
+        Insert text
+    </h3>
+    <div>
+        {{text}}
+    </div>
+    <form method="post" action = "/predicttxt" enctype="multipart/form-data">
+        <input name="article" type="text"/>
+        <div>
+            <button type = "submit" style="margin: 16px">
+                Is it fake?
+        </button>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>
